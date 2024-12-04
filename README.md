@@ -5,6 +5,8 @@ files under an MIT license. This means the files contained herein are available 
 limited restriction on their usage. For specifics, please see the respective licenses. 
 
 # Step by step process of producing the final database from the Howell's Etymology pdf
+Note: If you simply want access to the resultant database, see "data/howell_etymology_text_database.txt"
+
 0. Review configuration details in "Python_config_Details.md"
 1. The raw pdf + howell_pdf_to_raw_txt.py -> howell_etymology.txt
 2. howell_etymology.txt + howell_raw_txt_to_txt_database.py -> howell_etymology_intermediary.txt 
